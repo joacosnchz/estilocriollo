@@ -1,0 +1,15 @@
+#special_block_right .price-box {
+  color: #ff4848;
+  text-align: center; }
+  #special_block_right .price-box .old-price {
+    margin: 0 5px;
+    color: #aaa;
+    text-decoration: line-through;
+    font-size: 12px; }
+#special_block_right .product-description {
+  margin-bottom: 10px; }
+#special_block_right .products-block > div {
+  margin-bottom: 30px;
+  text-align: center; }
+
+/*# sourceMappingURL=blockspecials.css.map */

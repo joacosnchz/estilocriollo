@@ -1,0 +1,79 @@
+@import "compass";
+@import "../../_theme_variables";
+
+#bskblockcategories {
+    
+    .tree {
+        position: relative;
+        width: 100%;
+        padding: 0;
+        border: none;
+        @include border-radius(0 0 3px 3px);
+        
+        > li { // level 1
+            padding: 10px;
+            border-bottom: 1px solid #ececec;
+            margin: 0 -8px;
+            
+            > a {
+                display: block;
+                padding: 10px;
+                font-family: $psansFamily;
+                font-size: 16px;
+                text-transform: uppercase;
+            }
+            
+            &.has_children {
+                > a:after {
+                    font-family: FontAwesome;
+                    content: '\f054';
+                    float: right;
+                }
+            }
+            
+            &:last-child { border: none; }
+            &:hover > ul { display: block; }
+            
+            > ul { // level 2
+                display: none;
+                width: 360%;
+                position: absolute;
+                z-index: 99;
+                margin-top: -45px;
+                left: calc(100% + 8px);
+                background: #fff;
+                @include border-radius(3px);
+                @include box-shadow(0 2px 8px rgba(0,0,0,0.16));
+                
+                > li {
+                    display: inline-block;
+                    vertical-align: top;
+                    padding: 20px;
+                    width: 24%;
+                    
+                    a { font-family: $psansFamily; }
+                    
+                    > a {
+                        display: block;
+                        font-weight: bold;
+                        text-transform: uppercase;
+                        color: #333;
+                        margin-bottom: 5px;
+                    }
+                    
+                    ul > li {
+                        padding: 5px 0;
+                    }
+                }
+            }
+        }
+    }
+    
+    &.fixed {
+        .frame_wrap_header { display: none; }
+        .frame_wrap_content {
+            border: none;
+            padding: 10px;
+        }
+    }
+}

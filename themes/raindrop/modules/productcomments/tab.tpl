@@ -1,0 +1,1 @@
+<li><a href="#pdtBox6" data-toggle="tab">{l s='Reviews' mod='productcomments'}</a></li>

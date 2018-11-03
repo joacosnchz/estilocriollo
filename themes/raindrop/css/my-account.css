@@ -1,0 +1,18 @@
+#my-account .myaccount-link-list li {
+  height: 50px;
+  line-height: 50px;
+  background: #454e50;
+  margin-bottom: 10px; }
+  #my-account .myaccount-link-list li a {
+    color: #fff;
+    display: block; }
+    #my-account .myaccount-link-list li a .ma_icon {
+      display: inline-block;
+      width: 20%;
+      text-align: center;
+      border-right: 2px solid #3b4446;
+      margin-right: 10px; }
+      #my-account .myaccount-link-list li a .ma_icon i {
+        font-size: 16px; }
+
+/*# sourceMappingURL=my-account.css.map */

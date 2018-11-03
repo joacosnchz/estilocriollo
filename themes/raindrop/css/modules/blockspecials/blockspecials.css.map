@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAII,+BAAW;EACP,KAAK,ECKA,OAAO;EDJZ,UAAU,EAAE,MAAM;EAElB,0CAAW;IACP,MAAM,EAAE,KAAK;IACb,KAAK,EAAE,IAAI;IACX,eAAe,EAAE,YAAY;IAC7B,SAAS,EAAE,IAAI;AAIvB,yCAAqB;EACjB,aAAa,EAAE,IAAI;AAInB,0CAAQ;EACJ,aAAa,EAAE,IAAI;EACnB,UAAU,EAAE,MAAM",
+"sources": ["../../../sass/modules/blockspecials/blockspecials.scss","../../../sass/_theme_variables.scss"],
+"names": [],
+"file": "blockspecials.css"
+}

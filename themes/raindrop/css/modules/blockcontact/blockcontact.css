@@ -1,0 +1,35 @@
+.shop-phone {
+  float: left;
+  margin: 3px 20px 0 0; }
+  @media (max-width: 767px) {
+    .shop-phone {
+      display: none; } }
+  .shop-phone i {
+    font-size: 16px;
+    padding-right: 7px;
+    position: relative;
+    top: 3px; }
+
+#contact-link {
+  float: left;
+  margin: 7px 20px 0 0; }
+
+@media (max-width: 767px) {
+  #contact_block {
+    margin-bottom: 20px; } }
+#contact_block .label {
+  display: none; }
+#contact_block .block_content {
+  color: #888888; }
+#contact_block p {
+  margin-bottom: 4px; }
+#contact_block p.tel {
+  font: 400 17px/21px Arial, Helvetica, sans-serif;
+  color: #333333;
+  margin-bottom: 6px; }
+  #contact_block p.tel i {
+    font-size: 25px;
+    vertical-align: -2px;
+    padding-right: 10px; }
+
+/*# sourceMappingURL=blockcontact.css.map */

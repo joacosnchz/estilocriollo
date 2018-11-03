@@ -1,0 +1,8 @@
+#nextprev_links {
+    float: right;
+}
+
+#nextprev_links a {
+    display: block;
+    height: 17px;
+}

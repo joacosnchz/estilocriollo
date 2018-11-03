@@ -1,0 +1,116 @@
+@import "compass";
+@import "../../_theme_variables";
+
+.bsktwitterbox{
+    cursor: default;
+}
+#footer .bsktwitterbox{
+    float: left;
+    width: 175px;
+    padding: 15px 10px;
+}
+
+.bsktwitterbox .title_block{
+    margin-bottom: 15px;
+}
+#footer .bsktwitterbox .title_block{
+    background: none;
+    padding: 0;
+}
+
+.bsktwitterbox li{
+    list-style: none;
+    border-bottom: 1px dashed;
+    padding: 10px 0;
+}
+
+.bsktwitterbox li .user img{
+    float:left;
+    width: 28px;
+    margin-right: 5px;
+}
+
+.bsktwitterbox li .user span{
+    font-style: italic;
+}
+
+.bsktwitterbox li .tweet{
+    padding-bottom: 0;
+}
+
+.bsktwitterbox li .tweet a{
+    display: inline;
+}
+
+#footerBar{
+    background-image: url(img/bkg.png);
+    background-color: rgba(0,0,0,0.8);
+    margin-bottom: 30px;
+}
+
+.bsktwitterbox_scroll{
+    display: none;
+    color: #f1f1f1;
+
+    i {
+        float: left;
+        font-size: 23px;
+        color: $color1;
+        margin-top: 5px;
+    }
+    
+    .arrows{
+        float: right;
+        margin: 10px 10px 0 0;
+    }
+    
+    .followBtn{
+        float: right;
+        /*width: 60px;*/
+        margin-top: 7px;
+    }
+}
+
+#bsktweets{
+    overflow: hidden;
+    float: left;
+    /*width: 87%;*/
+    margin: 5px 0;
+    font-family: $psansFamily;
+    font-size: 12px;
+    @include transition(height 0.5s ease);
+    
+    li{
+        list-style: none;
+        padding: 5px 0 5px 10px;
+        
+        p{ margin: 0; }
+        
+        a{color: $linkColor;}
+    }
+}
+
+#bsktwitterbox_prev,
+#bsktwitterbox_next{
+    display: inline-block;
+    width: 10px;
+    height: 16px;
+    cursor: pointer;
+    margin: 0 5px;
+    background-image: url(img/left_arrow.png);
+    text-indent: -9999px;
+}
+
+#bsktwitterbox_next{
+    background-image: url(img/right_arrow.png);
+}
+
+@media (max-width: $screen-xs-max) {
+    #bsktweets {
+        float: none;
+    }
+    
+    .arrows {
+        display: none;
+    }
+}

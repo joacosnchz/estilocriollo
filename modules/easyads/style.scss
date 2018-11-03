@@ -1,0 +1,78 @@
+@import 'compass';
+
+#header .easyads .banner a,
+#header .easyads .banner a img { max-height: none; }
+
+.easyads {
+    .banner {
+        display: block;
+        float: left;
+        margin: 0 0 5px 5px;
+        
+        &:first-child{
+            margin-left: 0;
+        }
+        
+        .embed.embed_popup { display: none; }
+        
+        &.no-margin-left{ margin-left: 0 !important; }
+        &.no-margin-right{ margin-right: 0 !important; }
+        &.no-margin-top{ margin-top: 0 !important; }
+        &.no-margin-bottom{ margin-bottom: 0 !important; }
+        
+        &.wide, &.wide img { width: 100%; }
+    }
+}
+
+/** displayBanner **/
+#easyads_displayBanner,
+#easyads_displayBanner .banner{
+    margin: 0;
+}
+
+/** displayNav **/
+#easyads_displayNav,
+#easyads_displayNav .banner{
+    margin-bottom: 0;
+}
+
+/** displayTop **/
+#easyads_displayTop{
+    clear: both;
+    padding: 25px 15px 0 15px;
+    margin-bottom: 0;
+}
+#easyads_displayTop .banner{
+    margin-bottom: 0;
+}
+
+/** displayTopColumn **/
+#easyads_displayTopColumn {
+    display: none;
+}
+
+#homepage-slider{
+    margin: 0;
+}
+
+#index {
+    #easyads_displayTopColumn {
+        display: block;
+    }
+}
+
+/** displayHome **/
+#easyads_displayHome{
+    margin-top: 10px;
+}
+
+/** displayLeftColumnProduct **/
+#easyads_displayLeftColumnProduct li a,
+#easyads_displayRightColumnProduct li a {
+    padding: 0;
+}
+
+/** displayFooter **/
+#easyads_displayFooter{
+    clear: both;
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>bskthemeoptions</name>
+	<displayName><![CDATA[BitSHOK GEAR Theme Options]]></displayName>
+	<version><![CDATA[1.4]]></version>
+	<description><![CDATA[Theme Options for RainDrop Theme]]></description>
+	<author><![CDATA[BitSHOK]]></author>
+	<tab><![CDATA[administration]]></tab>
+	<confirmUninstall><![CDATA[The RainDrop Theme depends on this module. Are you sure you want to uninstall?]]></confirmUninstall>
+	<is_configurable>1</is_configurable>
+	<need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

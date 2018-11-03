@@ -1,0 +1,193 @@
+@import url('http://fonts.googleapis.com/css?family=Raleway:normal,italic,bold,bolditalic|Open+Sans:normal,italic,bold,bolditalic');
+
+a { color: rgb(104, 193, 135); }
+
+a:hover { color: rgb(169, 225, 191); }
+
+#sdssearch_block_top .btn.button-search { background: rgb(104, 193, 135); }
+
+
+table#product_comparison .prices-container,
+#cart_summary tfoot td#total_price_container,
+#best-sellers_block_right .block_content .price,
+#header .shopping_cart .ajax_cart_total,
+#header .cart_block .price,
+.panel .ajax_block_cart_total,
+#new-products_block_right .price-box,
+#special_block_right .price-box,
+.pb-right-column .box-cart-bottom .content_prices .our_price_display, .pb-right-column .box-cart-bottom .content_prices .unit-price,
+ul.product_list.grid > li .product-container .content_price,
+.product_list.list .product-container .right-block .content_price { color: rgb(248, 155, 122); }
+
+body { color: #333; }
+
+.frame_wrap { border-color: #fff; }
+
+.frame_wrap, #hookTopMenu, .blue_block { 
+                    -webkit-box-shadow: none;
+                    box-shadow: none;
+                }
+
+.frame_wrap_header > .fwh-title,
+                .frame_wrap_header.nav.nav-tabs > li > a {
+                    color: rgb(72, 55, 53);
+                }
+
+.frame_wrap_header > .fwh-title,
+                .frame_wrap_header.nav.nav-tabs .active > a {
+                    border-color: rgb(72, 55, 53);
+                }
+
+.button {
+                    color: rgb(0, 0, 0);
+                    background-color: #f0f0f0;
+                    border-color: #ddd;
+                }
+
+.exclusive:hover {
+                    background-color: #f0f0f0;
+                }
+
+.exclusive {
+                    color: #fff;
+                    background-color: rgb(104, 193, 135);
+                    border-color: rgb(104, 193, 135);
+                }
+                .exclusive.btn-svg .icon-svg { fill: #fff; }
+
+.exclusive:hover { color: rgb(104, 193, 135); }
+                .exclusive.btn-svg:hover .icon-svg{ fill: rgb(104, 193, 135); }
+
+header #navSecondary {
+                    -moz-box-shadow: none;
+                    -webkit-box-shadow: none;
+                    box-shadow: none;
+                }
+
+.footer-container { 
+                    background-color: rgba(72, 55, 53, 0.79);
+                    color: rgb(255, 255, 255);
+                }
+                .footer-container #footer h4 { color: #000; }
+                .footer-container #footer ul li a { color: rgb(255, 255, 255); }
+
+
+.category-image .category-name,
+h1, h2, h3, h4, h5, h6,
+.special-heading .heading,
+.exclusive,
+.breadcrumb,
+.frame_wrap_header > .fwh-title, .frame_wrap_header.nav.nav-tabs > li > a,
+.footer-container #footer h4,
+#header .shopping_cart > a:first-child,
+#header .shopping_cart > a:first-child span,
+#layered_block_left .layered_subtitle,
+#layered_block_left ul li a,
+#search_block_top #search_query_top,
+.sf-menu > li > a,
+.sf-menu > li > ul > li > a,
+#bskmanufacturercarousel .carousel li .name,
+#bsktweets,
+.pb-right-column .product_header,
+.pb-right-column .box-cart-bottom .content_prices .our_price_display, .pb-right-column .box-cart-bottom .content_prices .unit-price { font-family: Raleway; }
+
+body { font-family: Open Sans; }
+
+body { font-size: 14px; }
+
+.sf-menu > li > a,
+                .sf-menu > li > ul > li > a {
+                    font-family: psans;
+                }
+
+.sf-menu > li > a { font-size: 14px; }
+
+body { background-color: rgb(255, 255, 255); }
+
+#page {
+	background-repeat: repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+#header .nav { 
+                    color: rgb(72, 55, 53);
+                    background: rgba(255, 255, 255, 0);
+                }
+                
+                #header .nav a { color: rgb(72, 55, 53); }
+                #header .nav a:hover { color: rgb(51, 51, 51); }
+
+#header .nav { font-size: 12px; }
+
+header #navSecondary { background: rgba(255, 255, 255, 0); }
+
+#hookTopMenu { background: rgb(255, 255, 207); }
+
+#hookTopMenu .sf-menu > li > a { color: rgb(72, 55, 53); }
+
+#hookTopMenu .sf-menu > li.sfHover > a,
+                #hookTopMenu .sf-menu > li > a:hover {
+                    color: rgb(104, 193, 135);
+                    background: rgb(255, 255, 207);
+                }
+
+#hookTopMenu .cat_title h2 {
+                    color: rgb(255, 255, 255);
+                    background: rgb(72, 55, 53);
+                }
+
+#bskblockcategories .tree > li > a { color: #fff; }
+                #bskblockcategories .tree > li:hover { background: rgb(222, 196, 161); }
+                #bskblockcategories .tree > li:hover > a { color: rgb(72, 55, 53); }
+                #bskblockcategories.fixed .frame_wrap_content { background: rgb(222, 196, 161); }
+
+header #header_scl { color: rgb(72, 55, 53); }
+                    
+                #currencies-block-top #setCurrency,
+                #languages-block-top .current { border-color: rgb(255, 255, 255); }
+                    
+                #header_scl .toogle_content > li > a,
+                #languages-block-top ul li.selected,
+                #languages-block-top ul li:hover { color: rgb(72, 55, 53); }
+                    
+                #currencies-block-top ul,
+                #languages-block-top ul { background: rgb(255, 255, 255); }
+                    
+                #currencies-block-top ul li,
+                #languages-block-top ul li { border-color: #ccc; }
+
+.blue_block { 
+                    background-color: rgba(248, 155, 122, 0.2);
+                    border-color: #fff;
+                }
+                .blue_block .border-right,
+                #cmsinfo_block,
+                #cmsinfo_block > div {
+                    border-color: #fff;
+                }
+
+#product .box-label,
+                #product .new-box,
+                #product .sale-box {
+                    background-color: rgba(248, 155, 122, 0.6);
+                }
+
+.product_list .box-label,
+                .product_list .new-box,
+                .product_list .sale-box {
+                    background-color: rgba(248, 155, 122, 0.6);
+                }
+
+/* CUSTOM CSS */
+
+/* Put your custom css code here */
+#displaySlider2 {
+    margin-bottom: 26px;
+    margin-top: 4px;
+}
+
+.category-image, #sdsblogCategory {
+    padding-top: 5px;
+}
+

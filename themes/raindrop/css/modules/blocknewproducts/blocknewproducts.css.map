@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAII,oCAAW;EACP,KAAK,ECKA,OAAO;EDJZ,UAAU,EAAE,IAAI;AAIhB,+CAAQ;EACJ,UAAU,EAAE,MAAM;EAClB,aAAa,EAAE,IAAI",
+"sources": ["../../../sass/modules/blocknewproducts/blocknewproducts.scss","../../../sass/_theme_variables.scss"],
+"names": [],
+"file": "blocknewproducts.css"
+}

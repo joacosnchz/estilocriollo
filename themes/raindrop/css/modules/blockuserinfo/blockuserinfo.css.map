@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,iBAAkB;EACd,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,YAAY",
+"sources": ["../../../sass/modules/blockuserinfo/blockuserinfo.scss"],
+"names": [],
+"file": "blockuserinfo.css"
+}

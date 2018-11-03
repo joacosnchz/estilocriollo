@@ -1,0 +1,16 @@
+@import "compass";
+@import "../../theme_variables";
+
+#best-sellers_block_right {
+    .block_content {
+        text-align: center;
+        
+        .price {
+            color: $priceColor;
+        }
+        
+        .lnk {
+            margin-bottom: 30px;
+        }
+    }
+}

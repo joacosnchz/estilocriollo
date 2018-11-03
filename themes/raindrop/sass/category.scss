@@ -1,0 +1,100 @@
+@import "compass";
+@import "theme_variables";
+
+/* ************************************************************************************************
+                                                                Categories Page Styles
+************************************************************************************************ */
+.category-image {
+    position: relative;
+    padding: 10px;
+    
+    .cat_desc {
+        position: absolute;
+        top: 30%;
+        left: 5%;
+        background: rgba(0,0,0,0.6);
+        color: #fff;
+        font-size: 12px;
+        width: 40%;
+        padding: 10px 20px;
+    }
+    
+    .category-name {
+        font-family: $psansFamily;
+        font-size: 20px;
+        display: inline-block;
+        margin-bottom: 15px;
+    }
+}
+
+.product-count {
+    margin: 10px 20px 0 0;
+}
+
+p {
+    margin-bottom: 0;
+}
+.content_scene {
+    color: $base-body-color;
+    .cat_desc {
+        padding-top: 20px;
+        a {
+            color: $link-color;
+            &:hover {
+                color: $link-hover-color;	
+            }
+        }
+    }
+}
+
+/* ************************************************************************************************
+                                                                        Sub Categories Styles
+************************************************************************************************ */
+
+#subcategories {
+    p.subcategory-heading {
+        font-weight: bold;
+        color: $base-text-color;
+        margin: 0 0 15px 0;
+    }
+    ul {
+        li {
+            float: left;
+            width: 128px;
+            margin: 0 0 13px 20px;
+            text-align: center;
+            height: 202px;
+            .subcategory-image {
+                padding: 0 0 8px 0;
+                a {
+                    display: block;
+                    padding: 9px;
+                    border: 1px solid $base-border-color;
+                    img {
+                        max-width: 100%;
+                        vertical-align: top;
+                    }
+                }
+            }
+            .subcategory-name {
+                font: 600 18px/22px $font-custom;
+                color: $base-heading-color;
+                text-transform: uppercase;
+                &:hover {
+                    color: $link-hover-color;	
+                }
+            }
+            .cat_desc { 
+                display: none;
+            }	
+            &:hover {
+                .subcategory-image {
+                    a {
+                        border: 5px solid $dark-border-color;
+                        padding: 5px;
+                    }
+                }	
+            }
+        }
+    }
+}

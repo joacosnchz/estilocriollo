@@ -1,0 +1,44 @@
+#module_form .active_exceptions {
+    margin-bottom: 10px;
+}
+
+#module_form .exceptions {
+    height: 118px;
+}
+
+.bootstrap .list-action-enable.disabled {
+    border: 1px solid #cecece;
+    background-color: #ececec;
+    cursor: default;
+}
+
+#embed_code {
+    resize: vertical;
+    height: 110px;
+}
+
+form > .panel > h3{
+    text-transform: none !important;
+}
+
+table.easyads td.field{
+    min-width: 200px;
+}
+
+table.easyads td.no-action > .list-action-enable{
+    cursor: default;
+    opacity: 0.6;
+}
+
+table.easyads tr.ui-sortable-placeholder{
+    height: 107px;
+}
+table.easyads tr.ui-sortable-helper td{
+    visibility: hidden;
+}
+table.easyads tr.ui-sortable-helper td:nth-child(1),
+table.easyads tr.ui-sortable-helper td:nth-child(2),
+table.easyads tr.ui-sortable-helper td:nth-child(3),
+table.easyads tr.ui-sortable-helper td:nth-child(4){
+    visibility: visible;
+}

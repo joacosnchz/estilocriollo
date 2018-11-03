@@ -1,0 +1,52 @@
+@import "compass";
+@import "../../_theme_variables";
+.shop-phone {
+    float: left;
+    margin: 3px 20px 0 0;
+
+    @media (max-width: $screen-xs-max) {
+        display: none;
+    }
+
+    i {
+        font-size: 16px;
+        padding-right: 7px;
+        position: relative;
+        top: 3px;
+    }
+}
+
+#contact-link {
+    float: left;
+    margin: 7px 20px 0 0;
+}
+
+#contact_block {
+    @media (max-width: $screen-xs-max) { // max 767px
+        margin-bottom: 20px;
+    }
+
+    .label {
+        display: none
+    }
+
+    .block_content {
+        color: #888888;
+    }
+
+    p {
+        margin-bottom: 4px;
+    }
+
+    p.tel {
+        font: 400 17px/21px $font-family;
+        color: $base-text-color;
+        margin-bottom: 6px;
+
+        i {
+            font-size: 25px;
+            vertical-align: -2px; 
+            padding-right: 10px;
+        }
+    }
+}

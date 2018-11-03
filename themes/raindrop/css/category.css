@@ -1,0 +1,71 @@
+/* ************************************************************************************************
+                                                                Categories Page Styles
+************************************************************************************************ */
+.category-image {
+  position: relative;
+  padding: 10px; }
+  .category-image .cat_desc {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    font-size: 12px;
+    width: 40%;
+    padding: 10px 20px; }
+  .category-image .category-name {
+    font-family: psans, Arial, serif;
+    font-size: 20px;
+    display: inline-block;
+    margin-bottom: 15px; }
+
+.product-count {
+  margin: 10px 20px 0 0; }
+
+p {
+  margin-bottom: 0; }
+
+.content_scene {
+  color: #777777; }
+  .content_scene .cat_desc {
+    padding-top: 20px; }
+    .content_scene .cat_desc a {
+      color: #777777; }
+      .content_scene .cat_desc a:hover {
+        color: #515151; }
+
+/* ************************************************************************************************
+                                                                        Sub Categories Styles
+************************************************************************************************ */
+#subcategories p.subcategory-heading {
+  font-weight: bold;
+  color: #333333;
+  margin: 0 0 15px 0; }
+#subcategories ul li {
+  float: left;
+  width: 128px;
+  margin: 0 0 13px 20px;
+  text-align: center;
+  height: 202px; }
+  #subcategories ul li .subcategory-image {
+    padding: 0 0 8px 0; }
+    #subcategories ul li .subcategory-image a {
+      display: block;
+      padding: 9px;
+      border: 1px solid #d6d4d4; }
+      #subcategories ul li .subcategory-image a img {
+        max-width: 100%;
+        vertical-align: top; }
+  #subcategories ul li .subcategory-name {
+    font: 600 18px/22px "Open Sans", sans-serif;
+    color: #555454;
+    text-transform: uppercase; }
+    #subcategories ul li .subcategory-name:hover {
+      color: #515151; }
+  #subcategories ul li .cat_desc {
+    display: none; }
+  #subcategories ul li:hover .subcategory-image a {
+    border: 5px solid #333333;
+    padding: 5px; }
+
+/*# sourceMappingURL=category.css.map */

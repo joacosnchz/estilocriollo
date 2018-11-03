@@ -1,0 +1,1 @@
+<input class="color_picker" name="{$name}" value="{$value}" />

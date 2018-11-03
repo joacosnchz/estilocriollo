@@ -1,0 +1,63 @@
+.bskblockadvertising .banner {
+  display: block;
+  float: left;
+  margin: 0 0 5px 5px; }
+
+.bskblockadvertising .banner:first-child {
+  margin-left: 0; }
+
+/** displayBanner **/
+#bskadv_displayBanner,
+#bskadv_displayBanner .banner {
+  margin: 0; }
+
+/** displayNav **/
+#bskadv_displayNav,
+#bskadv_displayNav .banner {
+  margin-bottom: 0; }
+
+/** displayTop **/
+#bskadv_displayTop {
+  clear: both;
+  padding: 25px 0 0 15px;
+  margin-bottom: 0; }
+
+#bskadv_displayTop .banner {
+  margin-bottom: 0; }
+
+/** displayTopColumn **/
+#bskadv_displayTopColumn {
+  display: none; }
+
+#homepage-slider {
+  margin: 0; }
+
+#index #bskadv_displayTopColumn {
+  display: block; }
+
+#index #bskadv_displayTopColumn .banner:first-child {
+  margin-left: 5px; }
+
+#index #bskadv_displayTopColumn .banner:nth-child(4) {
+  margin-left: 0; }
+
+/** displayHome **/
+#bskadv_displayHome {
+  margin-top: 10px; }
+
+/** displayLeftColumnProduct **/
+#bskadv_displayLeftColumnProduct li a,
+#bskadv_displayRightColumnProduct li a {
+  padding: 0; }
+
+/** displayFooter **/
+#bskadv_displayFooter {
+  clear: both; }
+
+/** THEME **/
+#bskadv_displayAds .banner {
+  margin-left: 30px; }
+  #bskadv_displayAds .banner:first-child {
+    margin-left: 0; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,52 @@
+#bskblockcategories .tree {
+  position: relative;
+  width: 100%;
+  background: #fff;
+  padding: 0;
+  -moz-border-radius: 0 0 3px 3px;
+  -webkit-border-radius: 0;
+  border-radius: 0 0 3px 3px; }
+  #bskblockcategories .tree > li {
+    padding: 10px;
+    border-bottom: 1px solid #ececec;
+    margin-right: -4px; }
+    #bskblockcategories .tree > li > a {
+      display: block;
+      padding: 10px;
+      font-size: 16px;
+      text-transform: uppercase; }
+    #bskblockcategories .tree > li.has_children > a:after {
+      font-family: FontAwesome;
+      content: '\f054';
+      float: right; }
+    #bskblockcategories .tree > li:last-child {
+      border: none; }
+    #bskblockcategories .tree > li:hover > ul {
+      display: block; }
+    #bskblockcategories .tree > li > ul {
+      display: none;
+      width: 240%;
+      position: absolute;
+      z-index: 99;
+      top: -3px;
+      left: 100%;
+      margin-left: 4px;
+      background: #fff;
+      -moz-border-radius: 3px;
+      -webkit-border-radius: 3px;
+      border-radius: 3px;
+      -moz-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.16);
+      -webkit-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.16);
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.16); }
+      #bskblockcategories .tree > li > ul > li {
+        display: inline-block;
+        vertical-align: top;
+        padding: 20px; }
+        #bskblockcategories .tree > li > ul > li > a {
+          display: block;
+          font-weight: bold;
+          margin-bottom: 5px; }
+        #bskblockcategories .tree > li > ul > li ul > li {
+          padding: 5px 0; }
+
+/*# sourceMappingURL=style.css.map */

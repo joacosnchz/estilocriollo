@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAGI,+BAAa;EACT,MAAM,EAAE,gBAAgB",
+"sources": ["../../../../sass/modules/crossselling/css/crossselling.scss"],
+"names": [],
+"file": "crossselling.css"
+}

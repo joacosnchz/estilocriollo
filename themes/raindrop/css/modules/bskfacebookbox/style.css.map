@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAGA,eAAgB;EACZ,UAAU,EAAE,cAAc;;AAG9B,0BAAmC;EAC/B,eAAgB;IACZ,UAAU,EAAE,MAAM",
+"sources": ["../../../sass/modules/bskfacebookbox/style.scss"],
+"names": [],
+"file": "style.css"
+}

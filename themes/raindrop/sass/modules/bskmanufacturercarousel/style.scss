@@ -1,0 +1,36 @@
+@import 'compass';
+@import "../../_theme_variables";
+
+#bskmanufacturercarousel {
+    clear: both;
+    
+    .carousel {
+        overflow: hidden;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        
+        li {
+            position: relative;
+            float:left;
+            text-align: center;
+            margin-right: 30px;
+            width: 200px;
+            
+            .name {
+                display: block;
+                font-family: $psansFamily;
+                margin-top: 10px;
+            }
+            
+            .prod_nb {
+                display: block;
+                position: absolute;
+                top: 0;
+                right: 0;
+                font-size: 10px;
+                padding: 3px 5px;
+                @include border-radius(20px);
+            }
+        }
+    }
+}

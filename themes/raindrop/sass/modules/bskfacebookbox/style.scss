@@ -1,0 +1,13 @@
+@import "compass";
+@import "../../_theme_variables";
+
+#bskfacebookbox {
+    border-top: 1px solid #fff;
+}
+
+@media (max-width: $screen-md-max) {
+    #bskfacebookbox {
+        text-align: center;
+    }
+
+}

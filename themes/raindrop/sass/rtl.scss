@@ -1,0 +1,133 @@
+@import "compass";
+@import "theme_variables";
+
+/********************************************************
+                        Right to Left Styles
+********************************************************/
+
+* {
+    direction: rtl !important;
+}
+#page {
+    text-align: right !important;
+}
+
+.shop-phone i {
+    padding-left: 7px;
+}
+
+#currencies-block-top div.current i,
+#languages-block-top div.current i {
+    margin: 0 4px 0 0;
+}
+
+#first-languages {
+    li {
+        a {
+            img {
+                margin: 0 5px 2px 5px;
+            }
+        }
+
+        img {
+            margin: 0 5px 2px 5px;
+        }
+    }
+}
+
+#first-currencies {
+    li {
+        a {
+            margin-right: 10px;
+        }
+    }
+}
+
+#social_blue_block {
+    ul {
+        li {
+            a {
+                span {
+                    visibility: hidden;
+                }
+            }
+        }
+    }
+}
+
+.list {
+    .compare {
+        span {
+            padding: 0 3px;
+        }
+    }
+}
+
+#nextprev_links {
+    float: left;
+}
+
+#layered_block_left ul li input.filter-checkbox, 
+#layered_block_left ul li input.color-option {
+    margin: 0 5px 0 5px !important;
+}
+
+ul.step li span em, 
+ul.step li a em {
+    margin: 0 0 0 10px;
+}
+
+#attributes {
+    .attribute_select{
+        float: left;
+    }
+}
+
+.button-plus,
+.button-minus {
+    @include border-radius(0);
+}
+
+#buy-block {
+    .form-group {
+        .control-label {
+            float: right;
+            text-align: left;
+        }
+
+        .col-md-4 {
+            float: right;
+        }
+    }
+}
+
+#newsletter_blue_block {
+    .btn-default,
+    #newsletter-input {
+        @include border-radius(0);
+    }
+}
+
+.cart_block_shipping_cost,
+.cart_block_total {
+    margin-left: 5px;
+}
+
+.fl,
+.fr {
+    margin-top: 10px;
+}
+
+#productFooter {
+    display: none;
+}
+
+#layer_cart {
+    .col-xs-12 {
+        display: none;
+    }
+    
+    .panel-footer .btn-default {
+        float: none;
+    }
+}

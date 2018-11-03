@@ -1,0 +1,35 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{cuentadigital}prestashop>cuentadigital_048c4585d69e89d632cb857f642abb62'] = 'CuentaDigital';
+$_MODULE['<{cuentadigital}prestashop>cuentadigital_5fff4bccf01c0504860894e444709f37'] = 'Pasarela de pago para CuentaDigital';
+$_MODULE['<{cuentadigital}prestashop>cuentadigital_876f23178c29dc2552c0b48bf23cd9bd'] = '¿Estas seguro que deseas eliminar el modulo?';
+$_MODULE['<{cuentadigital}prestashop>cuentadigital_0f40e8817b005044250943f57a21c5e7'] = 'No se ha especificado el nombre';
+$_MODULE['<{cuentadigital}prestashop>cuentadigital_f6aca3973852838b6bac81c1fb6da746'] = 'No se ha especificado el id de cliente de CuentaDigital';
+$_MODULE['<{cuentadigital}prestashop>cuentadigital_685a536a2295b45f02c8aa6edef30a89'] = 'Por favor, complete todos los campos del formulario';
+$_MODULE['<{cuentadigital}prestashop>cuentadigital_16251e8d473e47680263de49c55f981b'] = 'Las configuraciones han sido guardadas correctamente.';
+$_MODULE['<{cuentadigital}prestashop>cuentadigital_f4f70727dc34561dfde1a3c529b6205c'] = 'Configuraciones';
+$_MODULE['<{cuentadigital}prestashop>cuentadigital_3f818994efb45d7a46123a2977632561'] = 'Cuenta ID';
+$_MODULE['<{cuentadigital}prestashop>cuentadigital_c9cc8cce247e49bae79f15173ce97354'] = 'Guardar';
+$_MODULE['<{cuentadigital}prestashop>cuentadigital_630f6dc397fe74e52d5189e2c80f282b'] = 'Volver a la lista';
+$_MODULE['<{cuentadigital}prestashop>validation_e2b7dec8fa4b498156dfee6e4c84b156'] = 'Este método de pago no está disponible.';
+$_MODULE['<{cuentadigital}prestashop>payment_execution_644818852b4dd8cf9da73543e30f045a'] = 'Otros modos de pago';
+$_MODULE['<{cuentadigital}prestashop>payment_execution_6ff063fbc860a79759a7369ac32cee22'] = 'Pago';
+$_MODULE['<{cuentadigital}prestashop>payment_execution_8520b283b0884394b13b80d5689628b3'] = 'Confirmar pago';
+$_MODULE['<{cuentadigital}prestashop>payment_execution_f1d3b424cd68795ecaa552883759aceb'] = 'Resumen del pedido';
+$_MODULE['<{cuentadigital}prestashop>payment_execution_879f6b8877752685a966564d072f498f'] = 'Su carrito está vacío';
+$_MODULE['<{cuentadigital}prestashop>payment_execution_060bf2d587991d8f090a1309b285291c'] = 'Confirmar';
+$_MODULE['<{cuentadigital}prestashop>payment_execution_2839d91efea29449b5eff46d1f304123'] = 'Ha elegido pagar con CuentaDigital.';
+$_MODULE['<{cuentadigital}prestashop>payment_execution_c884ed19483d45970c5bf23a681e2dd2'] = 'Aquí tiene un resumen de su pedido:';
+$_MODULE['<{cuentadigital}prestashop>payment_execution_3b3b41f131194e747489ef93e778ed0d'] = 'El importe total de su pedido asciende a:';
+$_MODULE['<{cuentadigital}prestashop>payment_execution_1f87346a16cf80c372065de3c54c86d9'] = '(impuestos incl.)';
+$_MODULE['<{cuentadigital}prestashop>payment_execution_9ddfda19464a46e9e61681b6b8a98ca0'] = 'Aceptamos varias divisas para pago con CuentaDigital';
+$_MODULE['<{cuentadigital}prestashop>payment_execution_a7a08622ee5c8019b57354b99b7693b2'] = 'Seleccione una de las siguientes:';
+$_MODULE['<{cuentadigital}prestashop>payment_execution_4703daf91a3a1ce4c400d038d740063e'] = 'Aceptamos las siguientes divisas para pago con CuentaDigital:';
+$_MODULE['<{cuentadigital}prestashop>payment_execution_14b64a8cfd65208e701847319067f1b1'] = 'Generaremos una factura para usted poder realizar el pago.';
+$_MODULE['<{cuentadigital}prestashop>payment_execution_52f64bc0164b0e79deaeaaaa7e93f98f'] = 'Por favor, confirme su pedido haciendo click en \'Confirmo mi pedido\'.';
+$_MODULE['<{cuentadigital}prestashop>payment_execution_46b9e3665f187c739c55983f757ccda0'] = 'Confirmo mi pedido';
+$_MODULE['<{cuentadigital}prestashop>payment_execution_569fd05bdafa1712c4f6be5b153b8418'] = 'Otros medios de pago';
+$_MODULE['<{cuentadigital}prestashop>payment_5a4519a9819dd1d1393f2093c35b4b57'] = 'Pagar con CuentaDigital';
+$_MODULE['<{cuentadigital}prestashop>payment_fcede01cba84411d086e35630498c843'] = 'Generaremos una factura para usted poder realizar el pago';

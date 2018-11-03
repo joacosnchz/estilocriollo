@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+    <property>
+        <value>$priceColor</value>
+        <file filename="comparator.scss">
+            <rule>table#product_comparison .prices-container</rule>
+        </file>
+        <file filename="global.scss">
+            <rule>#cart_summary tfoot td#total_price_container</rule>
+        </file>
+        <file filename="blockbestsellers.scss">
+            <rule>#best-sellers_block_right .block_content .price</rule>
+        </file>
+        <file filename="blockcart.scss">
+            <rule>#header .shopping_cart .ajax_cart_total</rule>
+            <rule>#header .cart_block .price</rule>
+            <rule>.panel .ajax_block_cart_total</rule>
+        </file>
+        <file filename="blocknewproducts.scss">
+            <rule>#new-products_block_right .price-box</rule>
+        </file>
+        <file filename="blockspecials.scss">
+            <rule>#special_block_right .price-box</rule>
+        </file>
+        <file filename="product.scss">
+            <rule>.pb-right-column .box-cart-bottom .content_prices .our_price_display, .pb-right-column .box-cart-bottom .content_prices .unit-price</rule>
+        </file>
+        <file filename="product_list.scss">
+            <rule>ul.product_list.grid &gt; li .product-container .content_price</rule>
+            <rule>.product_list.list .product-container .right-block .content_price</rule>
+        </file>
+    </property>
+    <property>
+        <value>$psansFamily</value>
+        <file filename="category.scss">
+            <rule>.category-image .category-name</rule>
+        </file>
+        <file filename="global.scss">
+            <rule>h1, h2, h3, h4, h5, h6</rule>
+            <rule>.special-heading .heading</rule>
+            <rule>.exclusive</rule>
+            <rule>.breadcrumb</rule>
+            <rule>.frame_wrap_header &gt; .fwh-title, .frame_wrap_header.nav.nav-tabs &gt; li &gt; a</rule>
+            <rule>.footer-container #footer h4</rule>
+        </file>
+        <file filename="blockcart.scss">
+            <rule>#header .shopping_cart &gt; a:first-child</rule>
+            <rule>#header .shopping_cart &gt; a:first-child span</rule>
+        </file>
+        <file filename="blocklayered.scss">
+            <rule>#layered_block_left .layered_subtitle</rule>
+            <rule>#layered_block_left ul li a</rule>
+        </file>
+        <file filename="blocksearch.scss">
+            <rule>#search_block_top #search_query_top</rule>
+        </file>
+        <file filename="superfish-modified.scss">
+            <rule>.sf-menu &gt; li &gt; a</rule>
+            <rule>.sf-menu &gt; li &gt; ul &gt; li &gt; a</rule>
+        </file>
+        <file filename="style.scss">
+            <rule>#bskmanufacturercarousel .carousel li .name</rule>
+        </file>
+        <file filename="style.scss">
+            <rule>#bsktweets</rule>
+        </file>
+        <file filename="product.scss">
+            <rule>.pb-right-column .product_header</rule>
+            <rule>.pb-right-column .box-cart-bottom .content_prices .our_price_display, .pb-right-column .box-cart-bottom .content_prices .unit-price</rule>
+        </file>
+    </property>
+</properties>

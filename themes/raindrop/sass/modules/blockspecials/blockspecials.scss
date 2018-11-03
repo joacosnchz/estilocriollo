@@ -1,0 +1,27 @@
+@import "compass";
+@import "../../theme_variables";
+
+#special_block_right {
+    .price-box {
+        color: $priceColor;
+        text-align: center;
+        
+        .old-price {
+            margin: 0 5px;
+            color: #aaa;
+            text-decoration: line-through;
+            font-size: 12px;
+        }
+    }
+    
+    .product-description {
+        margin-bottom: 10px;
+    }
+    
+    .products-block {
+        & > div {
+            margin-bottom: 30px;
+            text-align: center;
+        }
+    }
+}

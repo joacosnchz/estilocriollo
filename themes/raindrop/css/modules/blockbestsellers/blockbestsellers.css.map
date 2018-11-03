@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAII,wCAAe;EACX,UAAU,EAAE,MAAM;EAElB,+CAAO;IACH,KAAK,ECEJ,OAAO;EDCZ,6CAAK;IACD,aAAa,EAAE,IAAI",
+"sources": ["../../../sass/modules/blockbestsellers/blockbestsellers.scss","../../../sass/_theme_variables.scss"],
+"names": [],
+"file": "blockbestsellers.css"
+}

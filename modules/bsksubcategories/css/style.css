@@ -1,0 +1,33 @@
+#splash div {
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+    background-color:rgba(255,255,255,0.7);
+    bottom:10%;
+    margin:20px;
+    padding:15px;
+    position:absolute;
+    z-index:10;
+}
+#splash h2 {
+    font-size:14px;
+    margin-bottom:5px;
+}
+#splash a {
+    display: inline-block;
+    color:#000;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-shadow:none;
+}
+#splash p {
+    color:#000;
+    font-size:11px;
+    line-height:14px;
+    margin:0!important;
+    text-shadow:none;
+}
+
+#splash li {
+    position: relative;
+}

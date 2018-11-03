@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAGA,sBAAuB;EACnB,UAAU,EAAE,MAAM;EAClB,aAAa,EAAE,IAAI;EAEnB,6BAAO;IACH,UAAU,EAAE,GAAG",
+"sources": ["../../../../sass/modules/socialsharing/css/socialsharing.scss"],
+"names": [],
+"file": "socialsharing.css"
+}

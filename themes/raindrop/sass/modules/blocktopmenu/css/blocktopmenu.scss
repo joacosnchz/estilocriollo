@@ -1,0 +1,55 @@
+@import "compass";
+@import "../../../_theme_variables";
+
+.sf-menu {
+    > li > ul > li #category-thumbnail { display: none; }
+    
+    #category-thumbnail {
+        margin-top: 40px;
+        
+        .imgm {
+            width: 100%;
+            margin: 0 0 10px 0;
+        }
+    }
+}
+
+#hookTopMenu {
+    .sf-menu {
+        width: auto;
+        
+        > li {
+            > a {
+                padding: 10px;
+                color: $color1;
+                
+                &:hover {
+                    background: darken($color1, 5%);
+                    border: none;
+                    color: #fff;
+                }
+            }
+            
+            &.sfHover {
+                > a {
+                    background: darken($color1, 5%);
+                    border: none;
+                    color: #fff;
+                }
+            }
+            
+            &.sfHoverForce {
+                > a {
+                    color: #fff;
+                    border: none;
+                }
+            }
+            
+            > ul {
+                top: 36px;
+                width: calc(100% - 30px);
+                margin-left: 15px;
+            }
+        }
+    }
+}

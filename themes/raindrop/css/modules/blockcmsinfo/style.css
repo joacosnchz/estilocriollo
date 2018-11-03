@@ -1,0 +1,29 @@
+#cmsinfo_block {
+  border-top: 1px solid #fff;
+  border-right: 1px solid #fff;
+  padding-left: 0;
+  padding-right: 0;
+  min-height: 351px; }
+  #cmsinfo_block > div {
+    text-align: center;
+    padding: 0 15px 25px;
+    border-bottom: 1px solid #fff; }
+    #cmsinfo_block > div:last-child {
+      border-bottom: none;
+      padding-bottom: 0; }
+    #cmsinfo_block > div .reassurance {
+      *zoom: 1; }
+      #cmsinfo_block > div .reassurance:after {
+        content: "";
+        display: table;
+        clear: both; }
+      #cmsinfo_block > div .reassurance li {
+        display: block;
+        float: left;
+        width: 33.33333%; }
+        #cmsinfo_block > div .reassurance li img, #cmsinfo_block > div .reassurance li strong {
+          display: block;
+          text-align: center;
+          margin: 0 auto; }
+
+/*# sourceMappingURL=style.css.map */

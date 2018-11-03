@@ -1,0 +1,38 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{paypal}prestashop>paypal_ad69e733ebae8d264bccaa38d68830e8'] = 'PayPal';
+$_MODULE['<{paypal}prestashop>paypal_23582175701590f1790a946981ed9bbe'] = 'Pasarela de pago para PayPal';
+$_MODULE['<{paypal}prestashop>paypal_876f23178c29dc2552c0b48bf23cd9bd'] = '¿Estas seguro que deseas eliminar el modulo?';
+$_MODULE['<{paypal}prestashop>paypal_0f40e8817b005044250943f57a21c5e7'] = 'No se ha especificado el nombre';
+$_MODULE['<{paypal}prestashop>paypal_f6aca3973852838b6bac81c1fb6da746'] = 'No se ha especificado el id de cliente de paypal';
+$_MODULE['<{paypal}prestashop>paypal_49e3c7b041ab9d0c4a7cc471ec7e1ca7'] = 'No se ha especificado la clave de seguridad de paypal';
+$_MODULE['<{paypal}prestashop>paypal_685a536a2295b45f02c8aa6edef30a89'] = 'Por favor, complete todos los campos del formulario';
+$_MODULE['<{paypal}prestashop>paypal_16251e8d473e47680263de49c55f981b'] = 'Las configuraciones han sido guardadas correctamente.';
+$_MODULE['<{paypal}prestashop>paypal_f4f70727dc34561dfde1a3c529b6205c'] = 'Configuraciones';
+$_MODULE['<{paypal}prestashop>paypal_3f818994efb45d7a46123a2977632561'] = 'CLIENT ID';
+$_MODULE['<{paypal}prestashop>paypal_6952b5a147f242c0d344156ba7381f68'] = 'CLIENT SECRET';
+$_MODULE['<{paypal}prestashop>paypal_c9cc8cce247e49bae79f15173ce97354'] = 'Guardar';
+$_MODULE['<{paypal}prestashop>paypal_630f6dc397fe74e52d5189e2c80f282b'] = 'Volver a la lista';
+$_MODULE['<{paypal}prestashop>paypal_19ef08887745e7b9e37ea8c46849e592'] = 'Pagar con PayPal';
+$_MODULE['<{paypal}prestashop>validation_e2b7dec8fa4b498156dfee6e4c84b156'] = 'Este método de pago no está disponible.';
+$_MODULE['<{paypal}prestashop>payment_execution_644818852b4dd8cf9da73543e30f045a'] = 'Otros modos de pago';
+$_MODULE['<{paypal}prestashop>payment_execution_6ff063fbc860a79759a7369ac32cee22'] = 'Pago';
+$_MODULE['<{paypal}prestashop>payment_execution_8520b283b0884394b13b80d5689628b3'] = 'Confirmar pago';
+$_MODULE['<{paypal}prestashop>payment_execution_f1d3b424cd68795ecaa552883759aceb'] = 'Resumen del pedido';
+$_MODULE['<{paypal}prestashop>payment_execution_879f6b8877752685a966564d072f498f'] = 'Su carrito está vacío';
+$_MODULE['<{paypal}prestashop>payment_execution_060bf2d587991d8f090a1309b285291c'] = 'Confirmar';
+$_MODULE['<{paypal}prestashop>payment_execution_cbb0e88c180bb653d8b3dbbea90fb2c6'] = 'Ha elegido pagar con PayPal';
+$_MODULE['<{paypal}prestashop>payment_execution_c884ed19483d45970c5bf23a681e2dd2'] = 'Aquí tiene un resumen de su pedido:';
+$_MODULE['<{paypal}prestashop>payment_execution_3b3b41f131194e747489ef93e778ed0d'] = 'El importe total de su pedido asciende a:';
+$_MODULE['<{paypal}prestashop>payment_execution_1f87346a16cf80c372065de3c54c86d9'] = '(impuestos incl.)';
+$_MODULE['<{paypal}prestashop>payment_execution_cbe4a913ba20651f3467368f59757c58'] = 'Aceptamos varias divisas para pago con PayPal';
+$_MODULE['<{paypal}prestashop>payment_execution_a7a08622ee5c8019b57354b99b7693b2'] = 'Seleccione una de las siguientes:';
+$_MODULE['<{paypal}prestashop>payment_execution_24cf68c362689612ac34f0db801f0d9d'] = 'Aceptamos las siguientes divisas para pago con PayPal';
+$_MODULE['<{paypal}prestashop>payment_execution_e83e5a2246b996dea0c17b2531312e79'] = 'Necesitaras una cuenta de PayPal para finalizar la compra';
+$_MODULE['<{paypal}prestashop>payment_execution_52f64bc0164b0e79deaeaaaa7e93f98f'] = 'Por favor, confirme su pedido haciendo click en \'Confirmo mi pedido\'.';
+$_MODULE['<{paypal}prestashop>payment_execution_46b9e3665f187c739c55983f757ccda0'] = 'Confirmo mi pedido';
+$_MODULE['<{paypal}prestashop>payment_execution_569fd05bdafa1712c4f6be5b153b8418'] = 'Otros medios de pago';
+$_MODULE['<{paypal}prestashop>payment_7d5e81003662d60764adda1b31c33360'] = 'Pagar con PayPal';
+$_MODULE['<{paypal}prestashop>payment_74f46cb2fa28db0bdd744b74ce3013cd'] = '(necesitaras una cuenta de PayPal para finalizar la compra)';
